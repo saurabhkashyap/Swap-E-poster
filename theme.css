@@ -1,0 +1,2947 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e8ebf5;
+    color: #333;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+a:focus,
+.btn:focus,
+input[type="range"]:-moz-focusring,
+input[type="range"]:focus {
+    outline: thin dotted;
+    outline-offset: 0px;
+    outline-style: none;
+    outline-width: 0px;
+}
+
+.hide {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    display: block;
+    overflow: hidden;
+    clear: both;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+p {
+    margin: 0px 0px 10px;
+}
+
+select,
+input,
+textarea {
+    -webkit-appearance: none;
+}
+
+::-webkit-input-placeholder {
+    color: #999!important;
+}
+
+:-moz-placeholder {
+    color: #999!important;
+    opacity: 1;
+}
+
+::-moz-placeholder {
+    color: #999!important;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    color: #999!important;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1550px;
+    padding: 0 15px;
+    width: 100%;
+}
+
+.header {
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    float: none;
+    margin: 0;
+    vertical-align: top;
+    width: 100%;
+}
+
+#logo img {
+    max-height: 54px;
+    max-width: 187px;
+    padding: 5px 0 8px;
+}
+
+.headerLogo {
+    border-right: 1px solid #f2f2f2;
+    display: inline-block;
+    float: left;
+    margin: 5px 25px 0px 0;
+    padding-right: 30px;
+}
+
+.headerLogo a {
+    display: inline-block;
+}
+
+.sub-container {
+    display: none;
+}
+
+.single_ads_player.clear {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.headerarea.container div#menu {
+    display: inline-block;
+    float: left;
+}
+
+.top-menu li {
+    float: left;
+    list-style: outside none none;
+    position: relative;
+}
+
+.top-menu li a {
+    border-bottom: 3px solid transparent;
+    color: #333;
+    display: inline-block;
+    font-family: "Asap";
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 15px;
+    padding: 25px 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.top-menu li a:hover {
+    color: #73B353;
+}
+
+.top-menu li.active>a {
+    border-color: #73B353;
+    color: #73B353;
+}
+
+.headerarea.container div#top-user {
+    display: inline-block;
+    float: right;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+.top-user-content.guest .btn-successful,
+.btn.btn-block.btn-successful,
+.jtip-bottom button,
+.btn.btn-successful.mt20 {
+    background-color: #73B353;
+    border-color: #73B353;
+    border-image: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    color: #fff;
+    display: inline-block;
+    margin: 11px 0 7px 10px;
+    padding: 7px 15px;
+    text-decoration: none;
+}
+
+.headerarea.container div#search {
+    float: right;
+    margin: 18px 0 0px;
+    position: relative;
+    width: 275px;
+}
+
+.search-content .form-control.search-input {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #000000;
+    font-size: 14px;
+    padding: 8px 50px 9px 15px;
+    width: 100%;
+}
+
+.search-content .form-control.search-input:active,
+.search-content .form-control.search-input:focus {
+    border-color: #73B353;
+}
+
+.search-submit {
+    top: 0px;
+    background: transparent none repeat scroll 0 0;
+    border: 0 none;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+}
+
+.search-submit .fa.fa-search {
+    color: #73B353;
+    cursor: pointer;
+    font-size: 17px;
+    line-height: 35px;
+}
+
+.top-user-content.guest .btn-successful:hover,
+.btn.btn-successful.mt20:hover,
+.jtip-bottom button:hover,
+.btn-successful:hover,
+.btn-successful:focus,
+.footerssubmit:hover {
+    opacity: 0.8;
+}
+
+.footerHalf {
+    float: left;
+    width: 50%;
+}
+
+.footertop {
+    background-color: #282c35;
+    clear: both;
+    display: block;
+    margin: 30px 0 0;
+    overflow: hidden;
+    padding: 30px 0 10px;
+}
+
+.footeronethird {
+    float: left;
+    width: 33.33%;
+}
+
+.footeronehalf {
+    float: left;
+    width: 50%;
+}
+
+.bottomfooter {
+    background-color: #282c35;
+    clear: both;
+    display: block;
+    overflow: hidden;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footeronethird h4,
+h4.footerheading {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 22px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.footeronethird li {
+    float: none;
+    list-style: outside none none;
+    margin-bottom: 10px;
+}
+
+.footeronethird li a {
+    color: #aaa;
+    text-decoration: none;
+}
+
+.footeronehalf p {
+    color: #fff;
+    margin-bottom: 10px;
+    padding-right: 50px;
+}
+
+.footerlogo span {
+    clear: both;
+    color: rgba(255, 255, 255, 0.4);
+    display: block;
+    font-size: 11px;
+    line-height: 14px;
+    overflow: hidden;
+}
+
+.footerlogo img {
+    max-width: 88%;
+}
+
+.bottomfootera.container ul {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.bottomfootera.container li {
+    float: left;
+    list-style: outside none none;
+}
+
+.bottomfootera.container li a {
+    background: rgba(255, 255, 255, 0.04) none repeat scroll 0 0;
+    border: 1px solid #444;
+    border-radius: 15px;
+    color: #555;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 20px;
+    margin: 10px;
+    padding: 2px 15px;
+    text-decoration: none;
+}
+
+.bottomfootera.container li a:hover {
+    color: #79c143;
+}
+
+.footersubscrie {
+    clear: both;
+    display: block;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.footersubscrie input {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #555;
+    float: left;
+    font-size: 14px;
+    padding: 8px 15px;
+    width: 62%;
+}
+
+.footerssubmit {
+    background-color: #73B353;
+    border-color: #73B353;
+    border-image: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    color: #fff;
+    cursor: pointer;
+    float: left;
+    font-size: 16px;
+    margin-left: 2%;
+    padding: 5px 10px;
+    width: 30%;
+}
+
+.homeslider,
+.singleVideoAreaF {
+    clear: both;
+    display: block;
+    overflow: hidden;
+}
+
+.slidercontents {
+    height: 100%;
+}
+
+.playerLock {
+    height: 100%;
+    width: 100%;
+}
+
+.videoPlayer iframe {
+    border: 0 none!important;
+    height: 100%;
+    width: 100%;
+}
+
+.videoPlayer {
+    min-height: 300px;
+    background-color: #000;
+}
+
+.singleslider {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: none;
+    height: 100%;
+    position: relative;
+}
+
+.singleslider:first-child {
+    display: block;
+}
+
+.slide-caption {
+    background: rgba(27, 33, 46, 0.9) none repeat scroll 0 0;
+    bottom: 0;
+    box-sizing: border-box;
+    float: left;
+    left: -400px;
+    padding: 20px 30px;
+    position: absolute;
+    top: 0;
+    width: 380px;
+}
+
+.slide-link {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 99;
+}
+
+.slide-caption h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    margin: 0 0 10px;
+    color: #73B353;
+}
+
+.slide-caption .sc-desc {
+    color: #fff;
+    margin: 20px 0;
+}
+
+.slide-caption .slide-caption-info {
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    color: #ccc;
+    font-size: 12px;
+    margin-top: 15px;
+    padding: 0;
+}
+
+.slide-caption .slide-caption-info .block {
+    line-height: 1em;
+    margin: 10px 15px;
+}
+
+.slide-caption .slide-caption-info .block strong {
+    display: inline-block;
+    width: 80px;
+}
+
+.slide-caption h2 {
+    color: #73B353;
+}
+
+.slide-caption-info .block a {
+    color: #73B353;
+    text-decoration: none;
+}
+
+.socilmaincon {
+    background-color: #40444d;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.homeslider::before,
+.header::after {
+    white-space-collapse: collapse;
+}
+
+.sub-container {
+    background-color: #fff;
+    border-top: 1px solid #73B353;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    left: 0;
+    position: absolute;
+    top: 56px;
+    width: 440px;
+    z-index: 999;
+}
+
+.sub-container .sub-menu {
+    overflow: hidden;
+    padding: 10px;
+}
+
+.top-menu li ul.sub-menu li {
+    width: 33.33%;
+}
+
+.top-menu li ul.sub-menu li a {
+    color: #333;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 4px 10px;
+    text-transform: capitalize;
+}
+
+.top-menu li ul.sub-menu li a:hover,
+.top-menu li ul.sub-menu li.subactive a {
+    background-color: #73B353;
+    color: #fff;
+}
+
+.slidercontrollers {
+    display: inline-block;
+}
+
+.sliderPagination {
+    background-color: #fff;
+    border-radius: 100%;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    height: 10px;
+    margin: 6px;
+    vertical-align: middle;
+    width: 10px;
+}
+
+.sliderPagination.active {
+    background-color: transparent;
+    border: 2px solid #fff;
+    height: 12px;
+    margin: 2px 5px;
+    width: 12px;
+}
+
+.videosHeading {
+    clear: both;
+    margin: 40px 0 0px;
+    overflow: hidden;
+}
+
+.vheadingmain {
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+}
+
+.vheadingmain p {
+    background-color: #73B353;
+    border-radius: 3px 3px 0 0;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    text-transform: uppercase;
+}
+
+.vtabmenu {
+    display: inline-block;
+    float: left;
+}
+
+.vtabmenu ul {
+    overflow: hidden;
+}
+
+.vtabmenu ul li {
+    float: left;
+    list-style: outside none none;
+    margin-right: 5px;
+}
+
+.vtabmenu ul li span {
+    border-radius: 3px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 11px 15px;
+}
+
+.vtabmenu ul li span:hover {
+    background-color: #eee;
+}
+
+.vtabmenu ul li span.active {
+    background-color: #fff;
+}
+
+.vviewmore {
+    display: block;
+    float: right;
+    overflow: hidden;
+}
+
+.vviewmore a {
+    color: #73B353;
+    display: inline-block;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.singleVideo {
+    float: left;
+    height: 260px;
+    margin: 1%;
+    position: relative;
+    width: 10.5%;
+}
+
+.videosContainer {
+    clear: both;
+    display: block;
+    margin: 0 -1%;
+    overflow: hidden;
+}
+
+.singleVideo .mli-quality {
+    background-color: #fed700;
+    border-radius: 3px;
+    color: #222;
+    font-size: 11px;
+    font-weight: 500;
+    padding: 4px 6px;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    z-index: 4;
+}
+
+.singleVideo .mli-info {
+    background: rgba(0, 0, 0, 0) url("../images/mask-title.png") repeat-x scroll center top;
+    bottom: 0;
+    box-sizing: border-box;
+    height: auto;
+    left: 0;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 5;
+}
+
+.popcontents {
+    display: none;
+}
+
+.lazy.thumb.mli-thumb {
+    height: 100%;
+    width: 1500px;
+}
+
+.mli-info h2 {
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.playbtn {
+    display: none;
+    left: 30%;
+    position: absolute;
+    top: 35%;
+    width: 54px;
+}
+
+.qtip-default {
+    background-color: #fff;
+    border-radius: 3px;
+    clear: both;
+    display: none;
+}
+
+.tiptitle {
+    clear: both;
+    margin-top: 0px;
+    overflow: hidden;
+}
+
+.tiptitle h4 {
+    color: #73B353;
+    float: left;
+    font-size: 16px;
+    max-width: 80%;
+    padding: 7px 0 10px;
+}
+
+.tiptitle span {
+    background-color: #000;
+    color: #fff;
+    float: right;
+    font-size: 11px;
+    line-height: 13px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 3px 5px;
+}
+
+.jtip-top {
+    background: #eee none repeat scroll 0 0;
+    color: #333;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 4px -15px 4px;
+    padding: 5px 12px;
+}
+
+.jtip-top .jt-info.jt-imdb {
+    background: #fed500 none repeat scroll 0 0;
+    margin-right: 15px;
+    padding: 1px 7px;
+}
+
+.jtip-top .jt-info {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 3px 0;
+}
+
+.f-desc {
+    color: #333;
+    font-size: 12px;
+    line-height: 1.3em;
+    margin: 10px 0px;
+}
+
+.qtip-content .block {
+    color: #333;
+    font-size: 12px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.qtip-content .block a {
+    color: #73B353;
+    text-decoration: none;
+}
+
+.jtip-bottom {
+    clear: both;
+    display: block;
+    margin: 10px 0px;
+    overflow: hidden;
+}
+
+.jtip-bottom a,
+.jtip-bottom button {
+    box-sizing: border-box;
+    display: block!important;
+    font-size: 15px;
+    height: 38px;
+    line-height: 20px;
+    margin: 10px 0!important;
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+}
+
+.jtip-bottom a i,
+.popcontents .jtip-bottom button i {
+    margin-right: 10px;
+}
+
+.jtip-bottom button {
+    background-color: #eee;
+    border-color: #eee;
+    border-bottom: 3px solid #ddd!important;
+    color: #000!important;
+}
+
+.ml-mask.jt {
+    border-radius: 5px;
+    display: block;
+    height: 100%;
+}
+
+.qtip {
+    max-width: 320px!important;
+}
+
+.staticPage {
+    margin: auto;
+    max-width: 1024px;
+    padding: 30px 0;
+}
+
+.slidercontrollersArea {
+    bottom: 30px;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    right: 15px;
+    text-align: right!important;
+    z-index: 99;
+}
+
+.ds_overlay_pop {
+    display: none;
+    background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 9;
+}
+
+.dsModal {
+    display: none;
+    background: rgba(0, 0, 0, 0.4) none repeat scroll 0 0;
+    bottom: 0;
+    left: 0;
+    opacity: 1;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transition: opacity 0.15s linear 0s;
+    z-index: 99999999;
+}
+
+.dsModalContainer {
+    background-color: #282c35;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    display: none;
+    margin: 130px auto 50px;
+    width: 430px;
+}
+
+.modal-header {
+    padding: 15px 30px;
+    position: relative;
+    text-align: center;
+}
+
+.modal-header .close {
+    background: transparent none repeat scroll 0 0;
+    border: 0 none;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 14px;
+}
+
+.modal-header .close i.fa {
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 20px;
+    overflow: hidden;
+    z-index: 999;
+}
+
+.modal-title {
+    color: #fff;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.modal-body {
+    overflow: hidden;
+    padding: 0 30px;
+}
+
+.modal-body .desc {
+    color: #fff;
+    font-size: 12px;
+    margin: 0 0 20px;
+    text-align: center;
+}
+
+.modal-body .form-control {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    box-sizing: border-box;
+    display: block;
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding: 9px 12px;
+    width: 100%;
+}
+
+.pull-right a#open-forgot {
+    color: #888;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.btn.btn-block.btn-successful.btn-approve.mt10 {
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 10px 0 0;
+    padding: 7px 0;
+    width: 100%;
+}
+
+.modal-footer.text-center {
+    background: rgba(255, 255, 255, 0.05) none repeat scroll 0 0;
+    color: #fff;
+    margin-top: 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+.modal-footer.text-center a {
+    color: #73B353;
+    cursor: pointer;
+}
+
+.modal-footer.text-center p {
+    color: #888;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0;
+}
+
+.modal-footer.text-center p i {
+    padding-right: 5px;
+}
+
+.modlaLgo {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.smallContainer {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.breadcumsc>div#bread {
+    margin: 20px 0;
+}
+
+#bread .breadcrumb {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #333;
+    padding: 0;
+}
+
+.breadcrumb li {
+    display: inline-block;
+    color: #777;
+}
+
+#bread .breadcrumb a {
+    color: #333;
+}
+
+#bread .breadcrumb a span {
+    color: #777;
+    padding: 0 8px;
+}
+
+.videoPlayerBtn {
+    background-color: #40444d;
+    overflow: hidden;
+}
+
+.videoPlayerBtn div {
+    color: #ccc;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 24px;
+    padding: 10px 20px;
+}
+
+.addfvtsingle,
+.commentscount {
+    float: left;
+}
+
+.reportsarea {
+    color: #fff000!important;
+    float: right;
+}
+
+.videoPlayerBtn div:hover {
+    color: #fff;
+}
+
+.topdescription {
+    background: rgba(255, 255, 255, 0.05) none repeat scroll 0 0;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.topdescription {
+    background: #fff none repeat scroll 0 0;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.topdescriptionthumb {
+    float: left;
+    width: 15%;
+}
+
+.topdescriptiondesc {
+    border-right: 1px solid #eee;
+    float: left;
+    width: 54%;
+}
+
+.topdescriptiondesc h2 {
+    font-size: 20px;
+    line-height: 28px;
+    margin: 0 10px 10px 15px;
+}
+
+.topdescriptiondesc p {
+    color: #aaa;
+    font-size: 12px;
+    font-style: italic;
+    padding: 0 15px;
+}
+
+.chartdescription {
+    margin: 15px;
+    overflow: hidden;
+}
+
+.chartdescriptionLeft {
+    float: left;
+    margin-right: 30px;
+    max-width: 50%;
+}
+
+.chartdescriptionRight {
+    float: left;
+    overflow: hidden;
+}
+
+.chartdescriptionLeft li,
+.chartdescriptionRight li {
+    color: #333;
+    font-size: 13px;
+    line-height: 15px;
+    list-style: outside none none;
+    margin: 5px 0;
+}
+
+.chartdescriptionLeft li a,
+.chartdescriptionRight li a {
+    color: #73B353;
+}
+
+.bottomdescription {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.bottomdescription a {
+    color: #888;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 22px;
+    padding: 0 5px;
+}
+
+.bottomdescription a:hover {
+    color: #73B353;
+}
+
+.ratingleft {
+    background-color: #cc091c;
+    border-radius: 3px;
+    display: inline-block;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 35px;
+    margin-right: 10px;
+    padding: 4px 10px;
+}
+
+.ratingright {
+    float: left;
+    overflow: hidden;
+}
+
+.ratingsArea span {
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    font-size: 20px;
+    margin: 0 5px 0 0;
+}
+
+.smallContainer .singleVideo {
+    height: 265px;
+    width: 14.6%;
+}
+
+.report-list {
+    background: rgba(0, 0, 0, 0.02) none repeat scroll 0 0;
+    border-color: #555;
+    border-radius: 3px;
+    font-size: 12px;
+    margin: 10px 0;
+    overflow: auto;
+    padding: 0;
+}
+
+.report-list .rl-block {
+    border-color: #555 #555 -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 1px 0;
+    padding: 10px 15px;
+}
+
+.report-list .rl-title {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.rl-block label.fg-radio {
+    margin-right: 10px;
+}
+
+.modal-body input[type="checkbox"] {
+    height: inherit;
+    margin-right: 5px;
+    padding-bottom: inherit;
+    padding-left: inherit;
+    padding-top: inherit;
+}
+
+.modal-body textarea.form-control {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.2) none repeat scroll 0 0;
+    border-color: #555;
+    font-size: 13px;
+}
+
+.report-btn.text-center.mt20 {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.report-btn.text-center.mt20 button {
+    background-color: #73B353;
+    border: 1px solid #73B353;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 6px 12px;
+}
+
+.report-btn.text-center.mt20 button#report-submit {
+    border-bottom: 3px solid #d8761f;
+    margin-right: 5px;
+}
+
+.report-btn.text-center.mt20 .btn.btn-default {
+    background-color: #eee!important;
+    border-bottom: 3px solid #ddd!important;
+    border-color: #eee #eee #ddd!important;
+    color: #000!important;
+}
+
+.report-btn.text-center.mt20 .btn.btn-default:hover {
+    opacity: 0.8;
+}
+
+.ajaxvalidation {
+    color: #73B353;
+    display: block;
+    font-size: 12px;
+    margin: 5px 0 0;
+    text-align: center;
+}
+
+.cssload-center i {
+    display: block;
+    font-size: 20px;
+    margin: 15px 0 0;
+    text-align: center;
+}
+
+.laravelValidation {
+    color: #73B353;
+}
+
+.dsVideos {
+    overflow: hidden;
+}
+
+.ratedProducts,
+.viewedItesmsItems {
+    display: none;
+}
+
+.logged .logged-user {
+    float: right;
+    margin-top: 9px;
+}
+
+.logged .avatar {
+    display: inline-block;
+    margin-left: 10px;
+    overflow: hidden;
+    padding-right: 20px;
+    position: relative;
+}
+
+.logged .avatar img {
+    border-radius: 50%;
+    height: 34px;
+    width: 34px;
+}
+
+.logged .avatar .fa {
+    border-radius: 50%;
+    color: #fff;
+    font-size: 12px;
+    height: 16px;
+    line-height: 12px;
+    margin-top: -8px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 50%;
+    width: 16px;
+}
+
+.logged .dropdown-menu {
+    background-color: #282c35;
+    border: 1px solid #eee;
+    display: none;
+    left: auto;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    right: 30px;
+    top: 51px;
+    width: 180px;
+    z-index: 9999;
+}
+
+.logged .logged-user .dropdown-menu>li {
+    border-bottom: 1px solid #eee;
+}
+
+.logged .logged-user .dropdown-menu>li>a {
+    color: #fff;
+    display: block;
+    padding: 7px 10px;
+    white-space: normal;
+}
+
+.logged .logged-user .dropdown-menu>li>a>i {
+    text-align: center;
+    width: 16px;
+}
+
+.ml-mask {
+    display: inline-block;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.ml-mask::before {
+    background: rgba(59, 71, 99, 0.9) none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.ml-mask:hover:before {
+    opacity: 1;
+}
+
+.ml-mask:after {
+    content: "";
+    width: 55px;
+    height: 55px;
+    background-image: url(../images/btn-overlay2.png);
+    background-position: 50% 25%;
+    background-size: cover;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -27.5px;
+    margin-left: -27.5px;
+}
+
+.ml-mask:hover:after {
+    opacity: 1;
+}
+
+.ml-mask:after,
+.ml-mask:before {
+    transition: all 0.2s ease 0s;
+    -webkit-transition: all 0.2s ease 0s;
+    z-index: 4;
+}
+
+.dsPagination {
+    clear: both;
+    display: block;
+    margin: 30px 0 20px;
+    text-align: center;
+}
+
+.pagination {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.pagination li {
+    float: left;
+    list-style: outside none none;
+    margin: 5px;
+}
+
+.pagination li span,
+.pagination li a {
+    background-color: #fff;
+    border-radius: 3px;
+    color: #333;
+    padding: 6px 12px;
+}
+
+.pagination li.active span,
+.pagination li.active a {
+    background-color: #73B353;
+    color: #fff;
+}
+
+.pagination li span:hover,
+.pagination li a:hover {
+    background-color: #eee;
+}
+
+.filterAreac {
+    clear: both;
+    background-color: #fff;
+    border-radius: 3px;
+    display: none;
+    margin: 20px auto 0;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.filterRow {
+    clear: both;
+    display: block;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.filterRow .fc-title {
+    color: #73B353;
+    display: block;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 5px;
+}
+
+.filterRow ul {
+    background: #f8f8f8 none repeat scroll 0 0;
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+    margin: 0;
+    overflow: hidden;
+    padding: 10px 15px 8px;
+}
+
+.filterRow ul li {
+    float: left;
+    list-style: outside none none;
+    margin: 5px 7px;
+}
+
+.filterRow ul li label {
+    color: #333;
+    font-size: 13px;
+}
+
+.filterAreah {
+    background-color: #fff;
+    border-radius: 3px;
+    color: #333;
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    margin-top: 30px;
+    padding: 10px 20px;
+}
+
+.filterRow button {
+    background-color: #79c143;
+    border-color: #79c143 #79c143 #63a235;
+    border-image: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px 1px 3px;
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    margin: 20px auto 0;
+    padding: 7px 30px;
+}
+
+.center {
+    text-align: center;
+}
+
+.filterRow select {
+    border: 1px solid #e5e5e5;
+    font-size: 13px;
+    padding: 5px;
+}
+
+.filterRow select option {
+    padding: 5px 10px;
+}
+
+.movies-letter {
+    display: block;
+}
+
+.movies-letter a.btn-letter {
+    background: #ccc none repeat scroll 0 0;
+    border-radius: 3px!important;
+    box-shadow: none;
+    color: #333;
+    float: left;
+    font-size: 14px;
+    margin: 2px 7px;
+    overflow: hidden;
+    padding: 10px 15px;
+}
+
+.movies-letter a.btn-letter.active {
+    background: #73B353 none repeat scroll 0 0;
+    color: #fff;
+}
+
+.ml-alphabet {
+    display: block;
+    text-align: center;
+}
+
+.videosHeading.videosHeading_extra_seasons .episodelistss.ml-alphabet {
+    clear: none;
+    float: left;
+}
+
+.videosHeading.videosHeading_extra_seasons .vheadingmain {
+    float: left;
+}
+
+.videosHeading.videosHeading_extra_seasons {
+    margin: 0;
+}
+
+.videosHeading.videosHeading_extra_seasons .smallContainer {
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.movies-letter {
+    display: inline-block;
+    margin: 20px 0;
+}
+
+.termsProvacy {
+    background-color: #ffffff;
+    color: #555;
+    margin: 50px auto 70px;
+    padding: 1px 30px 50px;
+    width: 1024px;
+}
+
+.termsProvacy h1 {
+    font-size: 28px;
+    margin: 50px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.requestForm {
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+.requestRow {
+    clear: both;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.requestRow select {
+    border: 1px solid #555;
+    border-radius: 0;
+    font-size: 15px;
+    height: 39px;
+    padding: 0 10px;
+    width: 100%;
+}
+
+.requestRow select option {
+    padding: 8px 10px;
+}
+
+.requestRow input,
+.requestRow textarea {
+    border: 1px solid #555;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    padding: 8px 10px;
+    width: 100%;
+}
+
+.requestsubmit {
+    background-color: #4c9b0f;
+    border: 1px solid #4c9b0f;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 8px 20px;
+}
+
+.eportPop.dsModalContainer {
+    display: block;
+}
+
+.dsModalNew {
+    z-index: 99;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: none;
+}
+
+.ml-alphabet.episodelistss {
+    clear: both;
+    display: block;
+    float: left;
+}
+
+.ml-alphabet.episodelistss .movies-letter {
+    margin: 0;
+}
+
+.vheadingmain a {
+    color: #fff;
+}
+
+.dsWarning p {
+    color: #73B353;
+}
+
+.genreSeperator:last-child {
+    display: none;
+}
+
+.staticPage h1 {
+    font-size: 25px;
+    line-height: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.mainslider {
+    height: 100%;
+    width: 100%;
+}
+
+.seacsonInfo {
+    background: rgba(3, 151, 214, 0.9) none repeat scroll 0 0;
+    border-radius: 50%;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 11px;
+    height: 40px;
+    left: 10px;
+    line-height: 13px;
+    padding: 6px 7px;
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    width: 40px;
+}
+
+.seacsonInfo span {
+    clear: both;
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 14px;
+}
+
+.jtip-bottom button i {
+    margin-right: 10px;
+}
+
+.alraedyfvt {
+    color: #73B353!important;
+}
+
+.alraedyfvt i {
+    color: red!important;
+}
+
+.dstvshedule {
+    background-color: #fff;
+    clear: both;
+    display: block;
+    margin: 20px 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+.dstopHeaders {
+    clear: both;
+    overflow: hidden;
+    padding: 15px 15px 0;
+}
+
+.dstopHeadersMenu {
+    clear: both;
+    display: block;
+    float: none;
+    margin: 30px 0 20px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.dstopHeadersMenu ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.dstopHeadersMenu ul li {
+    float: left;
+    list-style: outside none none;
+    margin-right: 1px;
+}
+
+.dstopHeadersMenu ul li a {
+    background-color: #f2f8fb;
+    border: 1px solid #37b6ed;
+    color: #4f4f4f;
+    display: inline-block;
+    font-size: 12px;
+    padding: 7px 20px;
+}
+
+.dstopHeadersMenu ul li.dsActive a {
+    background-color: #37b6ed;
+    border-color: #61b0d6;
+    color: #fff;
+}
+
+.dsEpisodetitle {
+    background-color: #fff;
+    border-top: 2px solid #37b6ed;
+    margin-bottom: 20px;
+    overflow: hidden;
+    padding: 10px 15px;
+}
+
+.previousEds,
+.maindsTitle,
+.previousEds {
+    float: left;
+    text-align: center;
+    width: 33.33%;
+}
+
+.dsEpisodetitle a {
+    color: #000;
+}
+
+.previousEds,
+.maindsTitle {
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+}
+
+.dsEpisodetitle p {
+    color: #000;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 16px;
+    margin: 0 15px;
+}
+
+.dsEpisodescontainer {
+    padding-bottom: 15px;
+}
+
+.singleEpisdoe.singleEpisdoeH {
+    background-color: #fff;
+    border-bottom: 1px solid #e0e0e0;
+    border-top: 1px solid #e0e0e0;
+    clear: both;
+    display: block;
+    height: auto;
+    line-height: initial;
+    overflow: hidden;
+    padding: 8px 0 5px;
+}
+
+.singleEpisdoe.singleEpisdoeH span {
+    border: 0 none;
+    color: #000;
+    height: auto;
+    line-height: 14px;
+    padding: 0 15px;
+}
+
+.singleEpisdoe span {
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.dsrow1 {
+    float: left;
+    width: 24%;
+}
+
+.singleEpisdoe {
+    border-bottom: 1px solid #fff;
+    display: block;
+    height: 160px;
+    line-height: 135px;
+    overflow: hidden;
+    padding: 15px 0;
+}
+
+.singleEpisdoe span {
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.singleEpisdoe a {
+    color: #fff;
+    display: inline-block;
+    float: left;
+    text-decoration: none;
+}
+
+.dsrow1 img {
+    float: left;
+    height: 135px;
+    margin-right: 10px;
+    padding: 1px;
+}
+
+.singleEpisdoe span.dsrow2 {
+    line-height: initial;
+    text-align: center;
+}
+
+.dsrow1 a {
+    clear: both;
+    display: block;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.singleEpisdoe:last-child {
+    border: 0 none;
+}
+
+.titledsrow {
+    line-height: initial;
+}
+
+.dsAlternavtive {
+    clear: both;
+    display: block;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.alternativesc {
+    width: 50%;
+    float: left;
+}
+
+.alternativesh,
+.singleAlternative {
+    clear: both;
+    display: block;
+    overflow: hidden;
+}
+
+.altercolumn {
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    width: 33.33%;
+}
+
+.alternativesh .altercolumn {
+    float: right;
+}
+
+.alternativesh .altercolumn p {
+    background-color: #d8ecf5;
+    border-radius: 50px 50px 0 0;
+    color: #000;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.altercolumn p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.singleAlternative.singlealtereven {
+    background-color: #fff;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.singleAlternative {
+    background-color: #333;
+    border-top: 1px solid #ddd;
+    padding: 2px 10px;
+}
+
+.altercolumn {
+    display: block;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    width: 33.33%;
+}
+
+.altercolumn a {
+    text-decoration: none;
+}
+
+.altercolumnlink {
+    display: block;
+    float: left;
+    padding: 17px 0;
+}
+
+.altercolumn img {
+    float: left;
+    height: 15px;
+    margin-right: 6px;
+    margin-top: 3px;
+    width: 15px;
+}
+
+.altercolumn span {
+    color: #08c;
+}
+
+.extraAds {
+    float: right;
+    text-align: left;
+    width: 50%;
+}
+
+.altercolumnplay {
+    color: #657076;
+    float: right;
+    font-size: 25px;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+.altercolumn a {
+    text-decoration: none;
+}
+
+.altercolumn p.qualityP {
+    margin-top: 17px;
+}
+
+.singlealtereven .altercolumn p {
+    color: #000;
+}
+
+.votesarea {
+    padding: 7px 0;
+    text-align: center;
+}
+
+.ratingUrl {
+    background: rgba(0, 0, 0, 0) url("../images/starrating2.gif") repeat-x scroll 0 0;
+    display: inline-block;
+    height: 20px;
+    list-style: outside none none;
+    position: relative;
+    width: 100px;
+    z-index: 5;
+}
+
+.votesarea p {
+    color: #000;
+    font-size: 12px;
+    padding-top: 0;
+}
+
+.ratingUrl li span {
+    display: block;
+    height: 20px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 20px;
+    z-index: 15;
+}
+
+.ratingUrl li.ratingUrl2 span {
+    left: 20px;
+}
+
+.ratingUrl li.ratingUrl3 span {
+    left: 40px;
+}
+
+.ratingUrl li.ratingUrl4 span {
+    left: 60px;
+}
+
+.ratingUrl li.ratingUrl5 span {
+    left: 80px;
+}
+
+.ratingUrl li.active span {
+    background: rgba(0, 0, 0, 0) url("../images/starrating2.gif") no-repeat scroll 0 -20px;
+}
+
+.currentRatings {
+    background: rgba(0, 0, 0, 0) url("../images/starrating2.gif") repeat scroll 0 -40px;
+    display: block;
+    height: 20px;
+    position: absolute;
+    z-index: 1;
+}
+
+.votesarea span {
+    color: #000;
+}
+
+.votesarea .fa.fa-refresh.fa-spin {
+    position: absolute;
+    top: 15px;
+    z-index: 9;
+}
+
+.widgetsads {
+    clear: both;
+    display: block;
+    text-align: center;
+    overflow: hidden;
+}
+
+.ds_warning p {
+    color: #cb7428;
+}
+
+.videoPlayerBtn div.linkads {
+    color: #e6eae9!important;
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 22px;
+}
+
+.videoPlayerBtn div.linkads a {
+    color: #e6eae9!important;
+}
+
+.topdescriptionrating {
+    float: right;
+    width: 30%;
+}
+
+.mainslider {
+    float: left;
+    height: 100%;
+    width: 75%;
+}
+
+.sliderrightarea {
+    background-color: #222222;
+    float: right;
+    height: 100%;
+    overflow: auto;
+    padding-left: 0;
+    position: relative;
+    width: 25%;
+}
+
+.sliderrightareatop {
+    background-color: #475577;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+.sliderrightareatop p {
+    background-color: #596684;
+    color: #fff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 40px;
+    margin: 0;
+    padding: 5px 25px;
+    text-transform: uppercase;
+}
+
+.sliderrightareatop p span {
+    color: #fff;
+}
+
+.slidershareslideareamainhomeshare.clear {
+    background-color: #fff;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 15px;
+    padding: 15px 15px 12px;
+}
+
+.gomovies_go_home_notice {
+    background-color: #475577;
+    border-radius: 4px;
+    margin: 0 0 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+.gomovies_go_home_notice p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 0;
+}
+
+.slide-caption .btn.btn-successful.mt20 {
+    margin: 15px 0;
+}
+
+.sharingoptions {
+    margin: 0 0 10px 14px;
+}
+
+#playex {
+    position: relative;
+    z-index: 102;
+}
+
+.ds_seriesplay .mvi-cover::before {
+    background-image: url("../images/btn-play.png");
+    background-position: 50% 25%;
+    background-size: cover;
+    border: 6px solid rgb(255, 255, 255);
+    border-radius: 55px;
+    box-sizing: border-box;
+    content: "";
+    display: inline-block;
+    height: 110px;
+    left: 50%;
+    margin-left: -55px;
+    margin-top: -55px;
+    position: absolute;
+    top: 50%;
+    transition: all 0.3s ease 0s;
+    width: 110px;
+    z-index: 2;
+}
+
+.ds_seriesplay .mvi-cover::after {
+    background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+
+.ds_seriesplay .mvi-cover {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: block;
+    height: 500px;
+    position: relative;
+    width: 100%;
+}
+
+.facebookComarea.smallContainer {
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.sliderrightareabottom {
+    color: #fff;
+    padding: 20px;
+}
+
+input[type=checkbox] {
+    -webkit-appearance: checkbox;
+}
+
+input[type=radio] {
+    -webkit-appearance: radio;
+}
+
+#reportForm .rl-block label.fg-radio,
+#reportForm .block.rl-title strong {
+    color: #fff;
+}
+
+.ds_extra_pages_area.container.clear h1 {
+    border-bottom: 1px solid #ddd;
+    color: #222d34;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38px;
+    margin: 20px 0;
+    padding: 5px 0;
+}
+
+.ds_extra_pages_area.container.clear ul {
+    margin: 20px 0 30px;
+}
+
+.ds_extra_pages_area.container.clear li {
+    list-style: outside none none;
+    margin: 5px 0;
+}
+
+.ds_extra_pages_area.container.clear a {
+    color: #408bea;
+}
+
+.espidoes_listings_area.smallContainer.clear {
+    background-color: #fff;
+}
+
+.single_epsiode_row.clear {
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+}
+
+.single_epsiode_row_left {
+    float: left;
+    width: 12%;
+}
+
+.single_epsiode_row_left p {
+    color: #000;
+    font-weight: 700;
+    margin: 5px 0;
+}
+
+.single_epsiode_row_right {
+    float: left;
+    width: 88%;
+}
+
+.single_epsiode_row_right a {
+    background-color: #f0f0f0;
+    border-bottom: 3px solid #e0e0e0;
+    border-radius: 3px;
+    color: #333;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5px;
+    padding: 7px 15px;
+}
+
+.single_epsiode_row_right a:hover {
+    background-color: #666;
+    border-color: #555;
+    color: #fff;
+}
+
+.espidoes_listings {
+    margin: 0px 0px 22px;
+}
+
+.go_ratings_area.clear {
+    padding-left: 20px;
+}
+
+.go_ratings_arealeft {
+    float: left;
+}
+
+.go_ratings_arealeft p {
+    background-color: #df091e;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 30px;
+    margin: 8px 0;
+    padding: 4px 10px;
+}
+
+.go_ratings_arearight {
+    float: left;
+    margin-left: 15px;
+}
+
+.go_ratings_arearighttop.clear p {
+    color: #333;
+    font-size: 13px;
+    font-weight: 300;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.go_ratings_arearightbottom.clear ul li {
+    color: #e3e3e3;
+    cursor: pointer;
+    float: left;
+    font-size: 20px;
+    list-style: outside none none;
+    margin: 0 2px;
+}
+
+.go_ratings_arearightbottom.clear ul li:hover,
+.go_ratings_arearightbottom.clear ul li.active {
+    color: #fde16d;
+}
+
+.hide.go_ratings_lodas {
+    color: #333;
+    padding: 10px 2px;
+}
+
+.widgetsads.sidebaradsmainly {
+    border: 1px solid #ddd;
+    height: 250px;
+    margin-left: 20px;
+    margin-top: 12px;
+    width: 300px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {}
+
+@media only screen and (min-width: 1550px) {}
+
+@media only screen and (min-width: 1280px) and (max-width: 1549px) {
+    .container {
+        padding: 0;
+        width: 97%;
+    }
+    .singleVideo {
+        height: 210px;
+        width: 146px;
+    }
+    .homeslidera.container {
+        padding: 0;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+    .footerHalf {
+        float: none;
+        width: 100%;
+    }
+    .container {
+        padding: 0;
+        width: 97%;
+    }
+    .headerLogo {
+        border-right: 0 none;
+        float: none;
+    }
+    .headerarea.container div#menu {
+        display: block;
+        float: none;
+    }
+    .smallContainer .singleVideo {
+        height: 294px;
+        width: 23%;
+    }
+    .homeslidera.container {
+        width: 100%;
+    }
+    .singleVideo {
+        height: 270px;
+        width: 180px;
+    }
+    .homeslidera.container {
+        padding: 0;
+        width: 100%;
+    }
+    .altercolumnplay {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .footerHalf {
+        float: none;
+        width: 100%;
+    }
+    .container {
+        padding: 0;
+        width: 97%;
+    }
+    .headerLogo {
+        border-right: 0 none;
+        float: none;
+    }
+    .headerarea.container div#menu {
+        display: block;
+        float: none;
+    }
+    .smallContainer .singleVideo {
+        height: 260px;
+        width: 22%;
+    }
+    .homeslidera.container {
+        width: 100%;
+    }
+    .altercolumnplay {
+        display: none;
+    }
+    .sliderrightarea {
+        display: none;
+    }
+    .mainslider {
+        float: none;
+        width: 100%;
+    }
+    .slide-caption {
+        display: none!important;
+    }
+    .homesliderarea.container.clear {
+        padding: 0!important;
+        width: 100%!important;
+    }
+    .ds_seriesplay .mvi-cover {
+        height: 400px;
+    }
+}
+
+@media only screen and (min-width: 620px) and (max-width: 767px) {
+    .headerarea.container div#menu {
+        background-color: #fff;
+        bottom: 0;
+        left: -3000px;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 9999;
+    }
+    .mobile-menu,
+    .mobile-search,
+    .mobileMenuLogo,
+    .menuCross {
+        display: block;
+    }
+    .hide.mobileMenuLogo {
+        margin: 5px 0;
+        text-align: center;
+    }
+    .hide.mobileMenuLogo a {
+        display: block;
+    }
+    .hide.menuCross {
+        cursor: pointer;
+        padding: 5px;
+        position: absolute;
+        right: 5px;
+        top: 0;
+    }
+    .top-menu li {
+        float: none;
+    }
+    .top-menu li a {
+        border-bottom: 0 none;
+        display: block;
+        font-size: 14px;
+        padding: 10px 30px;
+    }
+    .sub-container {
+        display: block!important;
+        padding-left: 40px;
+        position: relative;
+        top: 0;
+    }
+    .top-menu {
+        background-color: #fff;
+        padding-bottom: 20px;
+    }
+    .top-menu li ul.sub-menu li {
+        width: 100%;
+    }
+    .container {
+        width: 96%;
+    }
+    .headerLogo {
+        margin: 12px 0 5px;
+        padding-right: 20px;
+    }
+    .headerarea.container div#top-user {
+        clear: both;
+        float: left;
+        margin-top: 1px;
+        width: 25%;
+    }
+    .top-user-content.guest .btn-successful,
+    .btn.btn-block.btn-successful,
+    .jtip-bottom button,
+    .btn.btn-successful.mt20 {
+        margin: 17px 0;
+    }
+    .headerarea.container div#search {
+        float: right;
+        margin: 17px 0;
+        width: 72%;
+    }
+    .mobile-menu.hide i {
+        cursor: pointer;
+        font-size: 24px;
+        margin-left: 35px;
+        margin-top: 16px;
+    }
+    .mobile-menu.hide {
+        display: block;
+        float: right;
+        margin-right: 20px;
+    }
+    .footerHalf {
+        float: none;
+        width: 100%;
+    }
+    .slide-caption {
+        width: 260px;
+    }
+    .homeslidera.container {
+        padding: 0;
+        width: 100%;
+    }
+    .singleVideo {
+        height: 420px;
+        margin: 5px;
+        width: 47%;
+    }
+    .vviewmore {
+        margin-right: 15px;
+        margin-top: 11px;
+    }
+    .footeronethird {
+        float: left;
+        width: 50%;
+    }
+    .footerHalf {
+        float: none;
+        width: 100%;
+    }
+    .footeronehalf {
+        float: none;
+        width: 100%;
+    }
+    .smallContainer .singleVideo {
+        height: 420px;
+        width: 47%;
+    }
+    .topdescription {
+        padding: 10px;
+    }
+    .topdescriptionthumb {
+        float: none;
+        margin-bottom: 20px;
+        text-align: center;
+        width: 100%;
+    }
+    .topdescriptiondesc {
+        float: none;
+        width: 100%;
+    }
+    .pagination li {
+        margin: 5px 5px 15px;
+    }
+    .filterAreac {
+        padding: 10px;
+    }
+    .sub-container {
+        width: 100%;
+    }
+    .dsrow1 img {
+        height: 72px;
+    }
+    .dstopHeadersMenu ul li {
+        margin-bottom: 10px;
+    }
+    .singleEpisdoe {
+        height: 100px;
+        line-height: 85px;
+    }
+    .alternativesc {
+        float: none;
+        width: 100%;
+    }
+    .topdescriptionrating {
+        float: none;
+        width: 100%;
+    }
+    .gomovies_go_home_notice p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .sliderrightarea {
+        display: none;
+    }
+    .mainslider {
+        float: none;
+        width: 100%;
+    }
+    .homesliderarea.container.clear {
+        padding: 0!important;
+        width: 100%!important;
+    }
+    .ds_seriesplay .mvi-cover {
+        height: 300px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 619px) {
+    .headerarea.container div#menu {
+        background-color: #fff;
+        bottom: 0;
+        left: -3000px;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 9999;
+    }
+    .mobile-menu,
+    .mobile-search,
+    .mobileMenuLogo,
+    .menuCross {
+        display: block;
+    }
+    .hide.mobileMenuLogo {
+        margin: 5px 0;
+        text-align: center;
+    }
+    .hide.mobileMenuLogo a {
+        display: block;
+    }
+    .hide.menuCross {
+        cursor: pointer;
+        padding: 5px;
+        position: absolute;
+        right: 5px;
+        top: 0;
+    }
+    .top-menu li {
+        float: none;
+    }
+    .top-menu li a {
+        border-bottom: 0 none;
+        display: block;
+        font-size: 14px;
+        padding: 10px 30px;
+    }
+    .sub-container {
+        display: block!important;
+        padding-left: 40px;
+        position: relative;
+        top: 0;
+    }
+    .top-menu {
+        background-color: #fff;
+        padding-bottom: 20px;
+    }
+    .top-menu li ul.sub-menu li {
+        width: 100%;
+    }
+    .container {
+        width: 96%;
+    }
+    .headerLogo {
+        margin: 12px 0 5px;
+        padding-right: 20px;
+    }
+    .headerarea.container div#top-user {
+        clear: both;
+        float: left;
+        margin-top: 1px;
+        width: 25%;
+    }
+    .top-user-content.guest .btn-successful,
+    .btn.btn-block.btn-successful,
+    .jtip-bottom button,
+    .btn.btn-successful.mt20 {
+        margin: 17px 0;
+    }
+    .headerarea.container div#search {
+        float: right;
+        margin: 17px 0;
+        width: 72%;
+    }
+    .mobile-menu.hide i {
+        cursor: pointer;
+        font-size: 24px;
+        margin-left: 35px;
+        margin-top: 16px;
+    }
+    .mobile-menu.hide {
+        display: block;
+        float: right;
+        margin-right: 20px;
+    }
+    .footerHalf {
+        float: none;
+        width: 100%;
+    }
+    .slide-caption {
+        width: 260px;
+    }
+    .homeslidera.container {
+        padding: 0;
+        width: 100%;
+    }
+    .singleVideo {
+        height: 300px;
+        margin: 5px;
+        width: 46%;
+    }
+    .vviewmore {
+        margin-right: 15px;
+        margin-top: 11px;
+    }
+    .footeronethird {
+        float: left;
+        width: 50%;
+    }
+    .footerHalf {
+        float: none;
+        width: 100%;
+    }
+    .footeronehalf {
+        float: none;
+        width: 100%;
+    }
+    .smallContainer .singleVideo {
+        height: 320px;
+        width: 47%;
+    }
+    .topdescription {
+        padding: 10px;
+    }
+    .topdescriptionthumb {
+        float: none;
+        margin-bottom: 20px;
+        text-align: center;
+        width: 100%;
+    }
+    .topdescriptiondesc {
+        float: none;
+        width: 100%;
+    }
+    .pagination li {
+        margin: 5px 5px 15px;
+    }
+    .filterAreac {
+        padding: 10px;
+    }
+    .sub-container {
+        width: 100%;
+    }
+    .dstopHeadersMenu ul li {
+        margin-bottom: 10px;
+    }
+    .dsrow1 img {
+        height: 72px;
+    }
+    .singleEpisdoe {
+        height: 100px;
+        line-height: 85px;
+    }
+    .alternativesc {
+        float: none;
+        width: 100%;
+    }
+    .altercolumnplay {
+        display: none;
+    }
+    .topdescriptionrating {
+        float: none;
+        width: 100%;
+    }
+    .gomovies_go_home_notice p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .sliderrightarea {
+        display: none;
+    }
+    .mainslider {
+        float: none;
+        width: 100%;
+    }
+    .slide-caption {
+        display: none!important;
+    }
+    .homesliderarea.container.clear {
+        padding: 0!important;
+        width: 100%!important;
+    }
+    .ds_seriesplay .mvi-cover {
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .headerarea.container div#menu {
+        background-color: #fff;
+        bottom: 0;
+        left: -3000px;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 9999;
+    }
+    .mobile-menu,
+    .mobile-search,
+    .mobileMenuLogo,
+    .menuCross {
+        display: block;
+    }
+    .hide.mobileMenuLogo {
+        margin: 5px 0;
+        text-align: center;
+    }
+    .hide.mobileMenuLogo a {
+        display: block;
+    }
+    .hide.menuCross {
+        cursor: pointer;
+        padding: 5px;
+        position: absolute;
+        right: 5px;
+        top: 0;
+    }
+    .top-menu li {
+        float: none;
+    }
+    .top-menu li a {
+        border-bottom: 0 none;
+        display: block;
+        font-size: 14px;
+        padding: 10px 30px;
+    }
+    .sub-container {
+        display: block!important;
+        padding-left: 40px;
+        position: relative;
+        top: 0;
+    }
+    .top-menu {
+        background-color: #fff;
+        padding-bottom: 20px;
+    }
+    .top-menu li ul.sub-menu li {
+        width: 100%;
+    }
+    .container {
+        width: 96%;
+    }
+    .headerLogo {
+        margin: 12px 0 5px;
+        padding-right: 20px;
+    }
+    .headerarea.container div#top-user {
+        clear: both;
+        float: left;
+        margin-top: 1px;
+        width: 25%;
+    }
+    .top-user-content.guest .btn-successful,
+    .btn.btn-block.btn-successful,
+    .jtip-bottom button,
+    .btn.btn-successful.mt20 {
+        margin: 10px 0 10px 5px;
+    }
+    .headerarea.container div#search {
+        float: right;
+        margin: 17px 0;
+        width: 65%;
+    }
+    .mobile-menu.hide i {
+        cursor: pointer;
+        font-size: 24px;
+        margin-left: 35px;
+        margin-top: 16px;
+    }
+    .mobile-menu.hide {
+        display: block;
+        float: left;
+    }
+    .dsModalContainer {
+        width: 320px;
+    }
+    .footerHalf {
+        float: none;
+        width: 100%;
+    }
+    .slide-caption {
+        width: 260px;
+    }
+    .homeslidera.container {
+        padding: 0;
+        width: 100%;
+    }
+    .singleVideo {
+        height: 230px;
+        margin: 5px;
+        width: 45%;
+    }
+    .vviewmore {
+        margin-right: 15px;
+        margin-top: 11px;
+    }
+    .footeronethird {
+        float: left;
+        width: 50%;
+    }
+    .footerHalf {
+        float: none;
+        width: 100%;
+    }
+    .footeronehalf {
+        float: none;
+        width: 100%;
+    }
+    .smallContainer .singleVideo {
+        height: 240px;
+        width: 46%;
+    }
+    .topdescription {
+        padding: 10px;
+    }
+    .topdescriptionthumb {
+        float: none;
+        margin-bottom: 20px;
+        text-align: center;
+        width: 100%;
+    }
+    .topdescriptiondesc {
+        float: none;
+        width: 100%;
+    }
+    .pagination li {
+        margin: 5px 5px 15px;
+    }
+    .filterAreac {
+        padding: 10px;
+    }
+    .mobile-menu.hide {
+        display: block;
+        float: right;
+        margin-right: 20px;
+    }
+    .sub-container {
+        width: 100%;
+    }
+    .headerarea.container div#top-user {
+        float: left;
+        margin-right: 8px;
+        margin-top: 8px;
+    }
+    .dstopHeadersMenu ul li {
+        margin-bottom: 10px;
+    }
+    .dsrow1 img {
+        height: 72px;
+    }
+    .singleEpisdoe {
+        height: 100px;
+        line-height: 85px;
+    }
+    .alternativesc {
+        float: none;
+        width: 100%;
+    }
+    .altercolumnplay {
+        display: none;
+    }
+    .topdescriptionrating {
+        float: none;
+        width: 100%;
+    }
+    .gomovies_go_home_notice p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .sliderrightarea {
+        display: none;
+    }
+    .mainslider {
+        float: none;
+        width: 100%;
+    }
+    .slide-caption {
+        display: none!important;
+    }
+    .homesliderarea.container.clear {
+        padding: 0!important;
+        width: 100%!important;
+    }
+    .ds_seriesplay .mvi-cover {
+        height: 200px;
+    }
+}
